@@ -1,0 +1,82 @@
+.nickname {
+  margin-bottom: 10vw;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.nicknameField {
+  display: block;
+  width: 100%;
+  height: 15vw;
+  font-size: 4.5vw;
+  line-height: 5vw;
+  border: 1px solid #CCCCCC;
+  border-radius: 1.25vw;
+  outline: none;
+  transition: 0.1s ease-out;
+  padding: 0 5vw;
+
+  &:hover {
+    border-color: #266FFE;
+  }
+
+  &:focus {
+    border-color: #266FFE;
+  }
+}
+
+.nicknameSubmit {
+  margin-top: 5vw;
+}
+
+.pollTitle {
+  color: #1A1A1A;
+  margin-bottom: 4vw;
+}
+
+.pollSubmit {
+  margin-top: 5vw;
+}
+
+@media screen and (min-width: 768px) {
+  .nickname {
+    display: flex;
+    margin-bottom: 32px;
+  }
+  
+  .nicknameField {
+    width: 100%;
+    height: 48px;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 4px;
+    padding: 0 16px;
+  }
+
+  .nicknameSubmit {
+    flex-shrink: 0;
+    margin-top: 0;
+    width: 216px;
+    margin-left: 8px;
+  }
+
+  .poll {
+    width: 50%;
+  }
+  
+  .pollTitle {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .pollSubmit {
+    width: 216px;
+    margin-top: 0;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "meta": {
+        "title": "Use your community capital to its fullest potential",
+        "description": "Turn your livestream viewers into transactions. Define your financial goal, engage your audience with polls and get paid for every page view."
+    },
+    "header": {
+        "loginBtn": "Log in",
+        "loginBtnLink": "https://platform.uplify.app/auth/streamer?utm_source=uplify.link&utm_medium=header",
+        "signupBtn": "Sign up free",
+        "signupBtnLink": "https://platform.uplify.app/auth/streamer?utm_source=uplify.link&utm_medium=header"
+    },
+    "hero": {
+        "title": "Use your <span>community capital</span> to&nbsp;its fullest potential",
+        "description": "Turn your livestream viewers into transactions. Define your financial goal, engage your audience with polls and get paid for every page view.",
+        "btn": "Get your Uplify link",
+        "btnLink": "https://platform.uplify.app/auth/streamer?utm_source=uplify.link&utm_medium=block1"
+    },
+    "platforms": {
+        "title": "Works with any livestream platform"
+    },
+    "monetize": {
+        "title": "Monetizing your audience is&nbsp;as&nbsp;easy as&nbsp;surfing the Internet",
+        "description": "Engage your audience and motivate them to&nbsp;support you and causes you care about simply by&nbsp;visiting your personal page.",
+        "btn": "Get your Uplify link",
+        "btnLink": "https://platform.uplify.app/auth/streamer?utm_source=uplify.link&utm_medium=block2"
+    },
+    "comission": {
+        "title": "Earn affiliate commission for your recommendations",
+        "description": "Share the products and services you recommend with your community and earn affiliate revenue. Join forces with the brands you trust and spread their message to&nbsp;your community.",
+        "btn": "Get your Uplify link",
+        "btnLink": "https://platform.uplify.app/auth/streamer?utm_source=uplify.link&utm_medium=block3"
+    }
+}

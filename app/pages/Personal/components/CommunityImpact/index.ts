@@ -1,0 +1,1 @@
+export { CommunityImpact } from './CommunityImpact'

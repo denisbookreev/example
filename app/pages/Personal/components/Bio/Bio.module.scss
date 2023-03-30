@@ -1,0 +1,38 @@
+.row {
+  display: flex;
+  margin-bottom: 3vw;
+}
+
+.label {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.platforms {
+  display: flex;
+  align-items: center;
+  margin-top: 4vw;
+
+  a {
+    display: inline-block;
+    width: 25%;
+    margin-right: 8vw;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .row {
+    margin-bottom: 6px;
+  }
+  .platforms {
+    margin-top: 10px;
+
+    a {
+      margin-right: 25px;
+    }
+  }
+}

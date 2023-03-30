@@ -1,0 +1,97 @@
+.container {
+  width: 100%;
+  height: 17.5vw;
+  position: relative;
+}
+
+.progressBar {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(#13BF34, 0.4);
+  border-radius: 1.25vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.progressValue {
+  font-size: 7.5vw;
+  font-weight: 700;
+  line-height: 1;
+  color: white;
+  letter-spacing: -0.02em;
+  position: absolute;
+  left: 2.5vw;
+  bottom: 2vw;
+  z-index: 3;
+}
+
+.progressNowVisual {
+  background-color: #65df7d;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.progressSavedVisual {
+  background-color: #13BF34;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.coin {
+  color: white;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  font-size: 14px;
+  animation: coin 1.3s linear;
+  animation-delay: 2s;
+  opacity: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    height: 80px;
+  }
+
+  .progressBar {
+    border-radius: 4px;
+  }
+  
+  .progressValue {
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    left: 8px;
+    bottom: 6px;
+  }
+}
+
+@keyframes coin {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 0px);
+  }
+  15% {
+    opacity: 1;
+  }
+  25% {
+    transform: translate(4px, -12px);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0px, -24px);
+  }
+  75% {
+    transform: translate(-4px, -36px);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0px, -48px);
+  }
+}

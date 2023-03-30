@@ -1,0 +1,28 @@
+.supporter {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 3.5vw 0;
+  margin-bottom: 1vw;
+
+  &:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+.supporterName {
+  font-size: 4.5vw;
+}
+
+@media screen and (min-width: 768px) {
+  .supporter {
+    padding: 12px 0;
+    margin-bottom: 0;
+  }
+  
+  .supporterName {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

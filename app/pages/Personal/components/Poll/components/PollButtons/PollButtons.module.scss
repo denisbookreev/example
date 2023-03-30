@@ -1,0 +1,126 @@
+.radio {
+  position: relative;
+  margin-bottom: 1.25vw;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  height: 15vw;
+  border: 1px solid rgba(black, 0.2);
+  border-radius: 15vw;
+  padding: 4.5vw;
+  transition: 0.2s ease-out;
+  position: relative;
+  overflow: hidden;
+
+  &.checked {
+    border-color: #266FFE;
+
+    .filler {
+      background-color: #A8C5FF;
+    }
+    .number {
+      color: white;
+      background-color: #266FFE;
+      border-color: #266FFE;
+    }
+  }
+
+  &:hover:not(.disabled) {
+    border-color: #266FFE;
+  }
+
+  &.disabled {
+    cursor: default;
+  }
+}
+
+.labelContent {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  padding-right: 60px;
+}
+
+.labelPercent {
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.filler {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(black, 0.1);
+  transition: 0.3s ease;
+}
+
+.input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  &:checked {
+    & + .label {
+      background-color: #F5F7FC;
+    }
+  }
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 6.5vw;
+  height: 6.5vw;
+  font-size: 3.25vw;
+  font-weight: 700;
+  color: rgba(black, 0.4);
+  border: 1px solid rgba(black, 0.2);
+  border-radius: 50%;
+  margin-right: 2.5vw;
+  transition: 0.2s ease-out;
+}
+
+@media screen and (min-width: 768px) {
+  .radio {
+    margin-bottom: 4px;
+    cursor: pointer;
+  
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  .label {
+    height: 48px;
+    border-radius: 24px;
+    padding: 16px;
+    cursor: pointer;
+  }
+  
+  .number {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    margin-right: 8px;
+  }
+}

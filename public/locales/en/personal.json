@@ -1,0 +1,81 @@
+{
+    "meta": {
+        "title": "Support {{streamer}} on Uplify link",
+        "description": "Join {{streamer}} community and help {{pronoun1}} achieve {{pronoun2}} goals."
+    },
+    "header": {
+        "supporters": "{{supporters}} supporters"
+    },
+    "advertVideo": {
+        "title": "Watch videos to get raiting bonus and support your creators",
+        "description": "Watch all the videos to support the streamer and get into the donator rating. After watching the videos, you'll be able to vote on the broadcast."
+    },
+    "bio": {
+        "title": "Bio",
+        "fields": {
+            "language": "Language",
+            "realName": "Real name",
+            "gender": "Gender",
+            "age": "Age",
+            "country": "Country",
+            "platform": "Livestream platform:"
+        }
+    },
+    "communityImpact": {
+        "title": "Community Impact",
+        "description": "Possible monthly income from community contribution."
+    },
+    "gearSetup": {
+        "title": "Gears and Setup",
+        "none": "No data available to show yet"
+    },
+    "goalProgress": {
+        "title": "Goal",
+        "of": "of",
+        "none": "No data available to show yet"
+    },
+    "poll": {
+        "title": "Thank you for support!",
+        "description": "Your vote counts. Enter your name to be ranked.",
+        "nickname": {
+            "placeholder": "nickname",
+            "changed": "Nickname changed",
+            "submitting": "Submiting ..",
+            "submit": "Submit",
+            "error": "Update nickname failed"
+        },
+        "submit": {
+            "changed": "You voted",
+            "submitting": "Voting ..",
+            "submit": "Vote",
+            "error": "Vote failed"
+        }
+    },
+    "popularCategories": {
+        "title": "Popular categories",
+        "none": "No data available to show yet"
+    },
+    "recentSupporters": {
+        "title": "Recent Supporters",
+        "none": {
+            "loading": "Loading ..",
+            "errorRequest": "An error occurred while requesting",
+            "errorData": "No data available to show yet"
+        },
+        "added": "just backed it up!"
+    },
+    "signUp": {
+        "title": "Do you want a page like this?<br /><b>Sign up for Uplify</b>",
+        "signupLink": "https://platform.uplify.app?utm_source=uplify.link.page&utm_medium={{streamerId}}"
+    },
+    "topSupporters": {
+        "title": "Top Supporters",
+        "description": "Top supporters of all time",
+        "none": {
+            "loading": "Loading ..",
+            "errorRequest": "An error occurred while requesting",
+            "errorData": "No data available to show yet"
+        },
+        "someone": "Someone"
+    }
+}

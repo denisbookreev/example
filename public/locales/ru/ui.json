@@ -1,0 +1,13 @@
+{
+    "adBlock": {
+        "title": "Disable AdBlock to support {{streamer}}",
+        "description": "You have an AdBlocker enabled. It would be great if you could add uplify.link to your exceptions to support the creator and help him grow."
+    },
+    "footer": {
+        "terms": "Terms",
+        "termsLink": "https://www.uplify.app/legal/terms",
+        "privacy": "Privacy policy",
+        "privacyLink": "https://www.uplify.app/legal/privacy-policy",
+        "rights": "&copy;&nbsp;2022&nbsp;Uplify. All rights reserved."
+    }
+}

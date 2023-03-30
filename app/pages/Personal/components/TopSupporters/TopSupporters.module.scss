@@ -1,0 +1,115 @@
+.column {
+  margin-bottom: 1vw;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:first-child {
+    .supporter {
+      &:nth-child(1) {
+        background: rgba(#E3BF3C, 0.1);
+        border: 1px solid #E3BF3C;
+
+        .supporterPlace {
+          color: rgba(black, 0.4);
+          background-color: #E3BF3C;
+          border: 1px solid rgba(black, 0.2);
+        }
+      }
+      &:nth-child(2) {
+        background-color: rgba(#ACACAC, 0.2);
+        border: 1px solid #ACACAC;
+
+        .supporterPlace {
+          color: rgba(black, 0.4);
+          background-color: #ACACAC;
+          border: 1px solid rgba(black, 0.2);
+        }
+      }
+      &:nth-child(3) {
+        background: rgba(#E3953C, 0.1);
+        border: 1px solid #E3953C;
+
+        .supporterPlace {
+          color: rgba(black, 0.4);
+          background-color: #E3953C;
+          border: 1px solid rgba(black, 0.2);
+        }
+      }
+    }
+  }
+}
+
+.supporter {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10vw;
+  padding: 3.5vw;
+  margin-bottom: 1vw;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.supporterPlace {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5.5vw;
+  height: 5.5vw;
+  font-size: 3vw;
+  font-weight: 700;
+  color: rgba(black, 0.4);
+  letter-spacing: 0.05em;
+  border: 1px solid rgba(black, 0.2);
+  border-radius: 50%;
+  margin-right: 2.5vw;
+}
+
+.supporterName {
+  font-size: 4.5vw;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .column {
+    width: calc(50% - 12px);
+    margin-bottom: 4px;
+  
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .supporter {
+    align-items: center;
+    height: 48px;
+    border-radius: 24px;
+    padding: 0 16px;
+    margin-bottom: 4px;
+  
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  .supporterPlace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  
+  .supporterName {
+    font-size: 14px;
+  }
+}

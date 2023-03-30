@@ -1,0 +1,14 @@
+.graph {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .graph {
+    display: flex;
+    margin-bottom: 16px;
+  }
+
+  .categories {
+    display: flex;
+  }
+}

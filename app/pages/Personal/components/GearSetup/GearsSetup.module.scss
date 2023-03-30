@@ -1,0 +1,36 @@
+.container {
+  margin-bottom: -2vh;
+}
+
+.item {
+  margin-bottom: 2vh;
+}
+
+.label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 1vh;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    margin-bottom: -16px;
+  }
+  
+  .column {
+    flex-shrink: 0;
+    width: 50%;
+    padding-right: 16px;
+  }
+
+  .item {
+    margin-bottom: 16px;
+  }
+  
+  .label {
+    display: inline-block;
+    width: 120px;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,46 @@
+.category {
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.categoryPercent {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+.categoryColor {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.categoryName {
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .category {
+    display: block;
+    width: calc(100%/6);
+
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
+
+  .categoryName {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+}
